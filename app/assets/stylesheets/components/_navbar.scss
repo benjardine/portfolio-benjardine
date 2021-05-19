@@ -1,0 +1,41 @@
+.my-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navbar-link {
+  transition: .3s;
+  margin-left: 24px;
+  padding-bottom: 8px;
+}
+
+// navigation bar styling
+.navbar {
+  overflow: hidden;
+  background-color: rgba(161, 205, 227, .9);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1000;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  padding-top: 13px;
+  img {
+    height: 22px;
+  }
+  .text {
+    margin-top: 13px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.75s;
+    &:hover {
+      border-bottom: 3px solid white;
+    }
+  }
+}
