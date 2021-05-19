@@ -4,7 +4,7 @@ body {
 }
 
 .header-container {
-height:100vh;
+  height:100vh;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
@@ -214,6 +214,7 @@ a:hover .bottom:after {
 #about-container {
   background-color: white;
   padding: 50px;
+  padding-top: 100px;
   margin: 150px;
   border-radius: 5px;
   // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -258,6 +259,16 @@ a:hover .bottom:after {
   margin: 150px;
   border-radius: 5px;
   // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.skill-icons {
+  color: blue;
 }
 
 
