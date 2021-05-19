@@ -211,26 +211,29 @@ a:hover .bottom:after {
   background-color: white;
   padding: 50px;
   margin: 150px;
+  border-radius: 5px;
+  // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
 .about-header h1{
   text-align: center;
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: black;
-  margin-bottom: 140px;
+  margin-bottom: 60px;
 }
 
 
 .about-middle {
   display: grid;
   grid-template-columns: 5fr 2fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-column: span 2;
 }
 
 .about-text {
   text-align: center;
   padding: 0 100px;
+  font-family: 'Dosis', sans-serif;
 }
 
 .about-image {
@@ -244,3 +247,23 @@ a:hover .bottom:after {
   height: 200px;
   border-radius: 30px;
 }
+
+#cv-container {
+  background-color: white;
+  padding: 50px;
+  margin: 150px;
+  border-radius: 5px;
+  // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
