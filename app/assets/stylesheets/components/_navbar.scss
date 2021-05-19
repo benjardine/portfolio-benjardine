@@ -11,6 +11,10 @@
   padding-bottom: 8px;
 }
 
+.navbar-right {
+  padding-right: 15px;
+}
+
 // navigation bar styling
 .navbar {
   overflow: hidden;
@@ -20,19 +24,18 @@
   width: 100%; /* Full width */
   z-index: 1000;
   color: white;
-  font-family: 'Fira Sans', sans-serif;
   padding-top: 13px;
-  img {
-    height: 22px;
-  }
+
   .text {
     margin-top: 13px;
+    margin-right: 20px;
   }
   a {
     color: white;
     text-decoration: none;
+    font-family: 'Dosis', sans-serif;
     padding-bottom: 5px;
-    border-bottom: 3px solid transparent;
+    border-bottom: 1px solid transparent;
     transition: border-bottom 0.75s;
     &:hover {
       border-bottom: 3px solid white;
