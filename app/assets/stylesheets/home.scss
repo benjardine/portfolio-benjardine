@@ -227,7 +227,7 @@ a:hover .bottom:after {
 .about-pattern {
   background-color: #A1CEE3;
   // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  border-radius: 10px;
+  border-radius: 0px;
   z-index: -1;
 }
 
@@ -255,8 +255,8 @@ a:hover .bottom:after {
 
   text-align: center;
   padding: 30px;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+
+  grid-template-rows: 2fr 1fr;
 }
 
 .about-image img {
@@ -267,7 +267,7 @@ a:hover .bottom:after {
 }
 
 .spotify {
-  padding: 40px;
+  padding-top: 40px;
 }
 
 .spotify iframe {
