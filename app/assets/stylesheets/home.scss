@@ -211,13 +211,24 @@ a:hover .bottom:after {
   background-color: #A1CEE3;
 }
 
+#about-link {
+  padding: 1px;
+}
+
 #about-container {
   background-color: white;
   padding: 50px;
   padding-top: 50px;
-  margin: 150px;
+  margin: 150px 150px 0 150px;
   border-radius: 5px;
+  z-index: 1;
+}
+
+.about-pattern {
+  background-color: #A1CEE3;
   // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  border-radius: 10px;
+  z-index: -1;
 }
 
 .about-header h1{
@@ -231,8 +242,7 @@ a:hover .bottom:after {
 .about-middle {
   display: grid;
   grid-template-columns: 5fr 2fr;
-  grid-template-rows: 1fr;
-  grid-column: span 2;
+
 }
 
 .about-text {
@@ -242,15 +252,26 @@ a:hover .bottom:after {
 }
 
 .about-image {
-  filter: grayscale(100%);
+
   text-align: center;
   padding: 30px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .about-image img {
+  filter: grayscale(100%);
   width: 200px;
   height: 200px;
   border-radius: 30px;
+}
+
+.spotify {
+  padding: 40px;
+}
+
+.spotify iframe {
+  border-radius: 20px;
 }
 
 #cv-container {
