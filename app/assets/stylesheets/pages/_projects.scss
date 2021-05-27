@@ -4,6 +4,12 @@
   padding: 50px;
   margin: 100px;
   font-family: 'Dosis', sans-serif;
+
+  h1 {
+    text-align: center;
+    color: #A1CEE3;
+    font-size: 45px;
+  }
 }
 
 .project-odd {
@@ -29,7 +35,7 @@
 }
 
 .morado {
-  color: #769BC5;
+  color: black;
 }
 
 .project-even {
@@ -83,14 +89,14 @@
 }
 
 .app-link {
-  margin-left: 8px;
+  margin: 8px;
   text-decoration: none;
-  color: #769BC5;
+  color: black;
   transition: all .2s ease-in-out;
 
   &:hover {
     text-decoration: none;
-    color: #91AFC6;
+    color: #A1CEE3;
     transform: scale(1.05);
 
   }
