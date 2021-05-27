@@ -1,7 +1,9 @@
 .project-container {
   background-color: white;
+  border-radius: 10px;
   padding: 50px;
   margin: 100px;
+  font-family: 'Dosis', sans-serif;
 }
 
 .project-odd {
@@ -9,6 +11,7 @@
   justify-content: center;
   align-items: center;
   text-align: left;
+  padding: 40px;
 
   img {
     flex: 1;
@@ -33,14 +36,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: right;
+  padding: 40px;
 
   img {
     flex: 1;
   }
 
   .website-image {
-    margin-right: 5vw;
+    margin-left: 5vw;
     width: 400px;
     height: 200px;
   }
